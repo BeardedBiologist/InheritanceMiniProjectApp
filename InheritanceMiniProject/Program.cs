@@ -13,6 +13,10 @@ namespace InheritanceMiniProject
     {
         static void Main(string[] args)
         {
+            List<InventoryItemModel> inventory = new List<InventoryItemModel>();
+
+            inventory.Add(new VehicleModel { DealerFee = 25, ProductName = "Kia Optima" });
+            inventory.Add(new BookModel { ProductName = "A Tale of Two Cities", NumberOfPages = 350 });
 
             Console.ReadLine();
         }
